@@ -1,0 +1,77 @@
+body
+{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    width: 100%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.contenedor
+{
+    width: 60%;
+}
+
+.encabezado_Azul
+{
+    width: 100%;
+    height: 40%;
+    background-color: #2596be;
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px ;
+}
+
+.contenedorImagen
+{
+    border-radius: 50% ;
+    position: absolute;
+    top: 66px;
+    left: 360px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    border: 1px solid gray;
+}
+
+.imagenPerfil
+{
+    width: 80px;
+    height: 80px;
+}
+
+.contenedor_informacion
+{
+    border-bottom: 2px solid gray;
+    border-right: 2px solid gray;
+    border-left: 2px solid gray;
+    padding: 22px;
+    padding-left: 44px;
+}
+
+.informacion_superior
+{
+    margin-bottom: 10px;
+}
+
+.imagenIcono
+{
+    width: 14px;
+    height: 14px;
+}
+
+a,span
+{
+    margin-left: 4px;
+}
+
+p
+{
+    margin: 0;
+    padding: 0;
+}
+
+.informacion_inferior
+{
+    margin-top: 10px;
+}
